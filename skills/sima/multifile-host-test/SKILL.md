@@ -2,7 +2,7 @@
 name: multifile-host-test
 description: Multi-file test skill used to verify how `skills describe` renders manifest YAML and SKILL.md.
 user-invocable: true
-argument-hint: [INPUT=<path>] [WORKDIR=<path>] [MODE=<dry-run|run>]
+argument-hint: "[INPUT=<path>] [WORKDIR=<path>] [MODE=<dry-run|run>]"
 ---
 
 # Multifile Host Test

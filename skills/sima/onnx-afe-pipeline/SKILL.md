@@ -2,7 +2,7 @@
 name: onnx-afe-pipeline
 description: Validate ONNX AFE models, run conversion and compile steps, and summarize deployable outputs.
 user-invocable: true
-argument-hint: [MODEL=<path>] [WORKDIR=<path>] [TARGET=<modalix|davinci>] [CONFIG=<path>]
+argument-hint: "[MODEL=<path>] [WORKDIR=<path>] [TARGET=<modalix|davinci>] [CONFIG=<path>]"
 ---
 
 # ONNX AFE Pipeline
