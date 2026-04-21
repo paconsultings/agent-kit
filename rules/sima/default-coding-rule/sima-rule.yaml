@@ -1,0 +1,16 @@
+id: sima-default-coding-rule
+type: rule
+name: SiMa Default Coding Rule
+version: 0.1.0
+agents: [codex, claude]
+description: Baseline repository rule set applied as AGENTS.md during `sima-cli agent-kit apply`.
+apply:
+  mode: merge
+  target_file: AGENTS.md
+  backup: true
+storage:
+  scope: user
+  path_hint: ~/.sima-cli/agent-kit/rules
+compatibility:
+  env_types: [host]
+  env_subtypes: [mac, linux]

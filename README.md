@@ -1,5 +1,20 @@
 # paconsultings/skills
 
-Test repository for sima-cli skills installation from GitHub sources.
+Test repository for `sima-cli agent-kit` installation from GitHub sources.
 
-This repo intentionally contains multiple nested skills discovered via `SKILL.md` and `sima-skill.yaml`.
+## Layout
+- `skills/`: reusable skill artifacts (`SKILL.md` + `sima-skill.yaml`)
+- `rules/`: repository guideline artifacts (`AGENTS.md` + `sima-rule.yaml`)
+
+## Example artifacts
+- Skill: `skills/sima/onnx-afe-pipeline`
+- Rule: `rules/sima/default-coding-rule`
+
+## Install examples
+- Install a skill:
+  - `sima-cli agent-kit install gh:paconsultings/skills/skills/sima/onnx-afe-pipeline`
+- Install a rule package (for future `apply` flow):
+  - `sima-cli agent-kit install gh:paconsultings/skills/rules/sima/default-coding-rule`
+
+## Rename recommendation
+When feasible, rename this repository to `paconsultings/agent-kit` to better match the command surface and mixed artifact types.
