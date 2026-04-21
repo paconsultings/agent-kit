@@ -1,0 +1,13 @@
+id: model-conversion-linux
+name: Model Conversion Linux
+version: 0.1.0
+agents: [codex]
+description: Linux-only model conversion helper.
+compatibility:
+  env_types: [host]
+  env_subtypes: [linux]
+  min_cli_version: 0.0.45
+runtime:
+  requires:
+    - python>=3.10
+    - bash

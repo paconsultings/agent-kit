@@ -1,0 +1,13 @@
+id: devkit-deploy
+name: Devkit Deploy
+version: 0.1.0
+agents: [codex, claude]
+description: Deploy artifacts to SiMa DevKit devices.
+compatibility:
+  env_types: [devkit]
+  env_subtypes: [modalix, davinci]
+  min_cli_version: 0.0.45
+runtime:
+  requires:
+    - ssh
+    - rsync
