@@ -1,0 +1,13 @@
+id: multifile-host-test
+name: Multifile Host Test
+version: 0.1.0
+agents: [codex, claude]
+description: Test skill with multiple files for validating skills describe output.
+compatibility:
+  env_types: [host]
+  env_subtypes: [mac, linux]
+  min_cli_version: 2.1.1
+runtime:
+  requires:
+    - python>=3.10
+    - bash
