@@ -6,7 +6,7 @@ description: Validate and process ONNX AFE pipeline tasks.
 compatibility:
   env_types: [host]
   env_subtypes: [mac, linux]
-  min_cli_version: 0.0.45
+  min_cli_version: 2.1.1
 runtime:
   requires:
     - python>=3.10
