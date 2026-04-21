@@ -1,0 +1,12 @@
+id: invalid-yaml-frontmatter-type-preinstall-test
+name: Invalid YAML Frontmatter Type Preinstall Test
+version: 0.1.0
+agents: [codex, claude]
+description: Deliberately uses non-mapping YAML frontmatter to test preinstall validation.
+compatibility:
+  env_types: [host]
+  env_subtypes: [mac, linux]
+  min_cli_version: 2.1.1
+runtime:
+  requires:
+    - python>=3.10
