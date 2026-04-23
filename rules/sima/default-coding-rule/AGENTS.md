@@ -15,3 +15,6 @@
 - Include a short risk summary for behavior changes.
 - Mention tests run and any untested paths.
 - Call out follow-up work if implementation is intentionally partial.
+
+## Playbook Update Marker
+- Test marker: refreshed for playbook update verification on 2026-04-23.
